@@ -22,7 +22,7 @@ require_once "/root/php-opencloud-master/lib/php-opencloud.php";
 
 define('AUTHURL', 'https://hkg.identity.api.rackspacecloud.com/v2.0/');
 //define('AUTHURL', 'https://ord.loadbalancers.api.rackspacecloud.com/v1.0/');
-define('USERNAME', '<USRNAME>');
+define('USERNAME', '<USERNAME>');
 define('TENANT', '<TENANT>');
 define('APIKEY', '<API_KEY>');
 
