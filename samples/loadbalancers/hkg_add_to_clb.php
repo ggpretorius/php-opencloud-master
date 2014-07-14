@@ -75,7 +75,7 @@ print_r(array_values($headers));
 info("CONTENT: ".$content);
 
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, "https://ord.loadbalancers.api.rackspacecloud.com/v1.0/834457/loadbalancers/LB_ID/nodes");
+curl_setopt($ch, CURLOPT_URL, "https://hkg.loadbalancers.api.rackspacecloud.com/v1.0/834457/loadbalancers/LB_ID/nodes");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_TIMEOUT, 4);
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
